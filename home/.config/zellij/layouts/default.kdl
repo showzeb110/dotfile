@@ -1,0 +1,17 @@
+layout {
+    default_tab_template {
+        pane size=1 borderless=true {
+            plugin location="compact-bar"
+        }
+        children
+        pane size=1 borderless=true {
+            plugin location="status-bar"
+        }
+    }
+    tab name="Agent" focus=true {
+        pane command="agent"
+    }
+    tab name="Bash" {
+        pane
+    }
+}
