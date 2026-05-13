@@ -6,7 +6,7 @@ sudo apt-get install -y stow
 stow -t ~ home
 
 echo "session_name \"$(gitpod env get -f Name)\"" >> ~/.config/zellij/config.kdl
-sudo git config --global user.email "colortheskyjade@users.noreply.github.com"
+sudo git config --global user.email "showzeb110@gmail.com"
 
 # Install mise
 curl https://mise.run | sh
